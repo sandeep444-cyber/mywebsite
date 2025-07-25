@@ -99,13 +99,18 @@ header {
 }
 
 .logo {
-    font-size: 28px;
-    font-weight: bold;
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  font-weight: normal;
+  color: #222;
 }
 
 .logo span {
-    color: var(--secondary-color);
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #ff6600; /* Change color if needed */
 }
+
 
 nav ul {
     display: flex;
