@@ -99,14 +99,16 @@ header {
 }
 
 .logo {
-  font-family: cursive;
-  font-size: 32px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
+  color: #222;
 }
 
 .logo span {
-  font-family: fantasy;
-  color: orange;
+  font-family: 'Playfair Display', serif;
+  color: #ff6600;
 }
+
 
 
 
