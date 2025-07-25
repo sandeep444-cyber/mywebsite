@@ -20,3 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+window.addEventListener("scroll", function () {
+  const header = document.querySelector(".main-header");
+  header.classList.toggle("shrink", window.scrollY > 50);
+});
