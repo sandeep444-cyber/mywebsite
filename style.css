@@ -80,7 +80,6 @@ body {
     background-color: var(--secondary-color);
     margin: 15px auto 0;
 }
-
 /* Header Styles */
 header {
     background-color: var(--primary-color);
@@ -98,20 +97,22 @@ header {
     align-items: center;
 }
 
+/* Stylish Cursive Logo */
 .logo {
   font-family: 'Great Vibes', cursive;
   font-size: 36px;
-  color: #222;
+  color: #fff; /* or any light color to show on dark bg */
+  letter-spacing: 1px;
 }
 
 .logo span {
   font-family: 'Playfair Display', serif;
-  color: #ff6600;
+  font-weight: bold;
+  color: #ff9900;
+  margin-left: 5px;
 }
 
-
-
-
+/* Navigation */
 nav ul {
     display: flex;
     list-style: none;
@@ -132,6 +133,7 @@ nav ul li a {
 nav ul li a:hover {
     color: var(--secondary-color);
 }
+
 
 /* Hero Section */
 .hero {
