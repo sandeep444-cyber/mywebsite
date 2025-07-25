@@ -101,14 +101,14 @@ header {
 .logo {
   font-family: 'Great Vibes', cursive;
   font-size: 36px;
-  color: #fff; /* or any light color to show on dark bg */
+  color: #FFD700; /* or any light color to show on dark bg */
   letter-spacing: 1px;
 }
 
 .logo span {
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  color: #ff9900;
+  color:#2C2C2C ;
   margin-left: 5px;
 }
 
